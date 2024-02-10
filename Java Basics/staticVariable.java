@@ -12,7 +12,7 @@ class Student
 	{
 		name = Name;
 		rollNo = roll;
-   }
+        }
    static
    {
    	rollNo = 24;
@@ -33,7 +33,7 @@ public class Main {
 	public static void main(String[] args) {
 		 System.out.println("hi");
 		 //Student s = new Student()
-	//	 s.display();
+		 //s.display();
 		 Student s1[] = new Student[2];
 		 s1[0] = new Student();
 		 s1[1] = new Student();
