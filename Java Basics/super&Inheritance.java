@@ -6,10 +6,10 @@ class Student
 	  
 	  static //This block is initiated once
 	  {
-	  	   System.out.println("in Static");
+                System.out.println("in Static");
 	  }
 	  public Student()
-	 {
+	  {
 	       System.out.println("in Student constructor");
 	  }
 }
@@ -30,8 +30,8 @@ public class Main {
 	public static void main(String[] args) {
 		College c = new College();
 		c.name = "Rohit";
-	    c.id = 23;
-	    c.dept = "CSE";
+	        c.id = 23;
+	        c.dept = "CSE";
 		System.out.println("id = " + c.id + " Name = " + c.name);
 	}
 }
