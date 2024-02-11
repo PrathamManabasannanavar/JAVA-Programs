@@ -52,7 +52,7 @@ class TicTacToe {
 }
 
 class sample {
-	public static void         main(String args[]) {
+	public static void main(String args[]) {
 		int player = 1, choice;
 		TicTacToe game = new TicTacToe();
 		game.displayBoard();
