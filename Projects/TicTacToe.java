@@ -59,7 +59,7 @@ class sample {
 		game.displayBoard();
 		while (true) {
 			if (game.isFull()) {
-				System.out.println("It's a draw");
+				System.out.println("\nIt's a draw");
 				break;
 			}
 			System.out.println("\nPlayer " + player);
