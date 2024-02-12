@@ -26,7 +26,7 @@ class TicTacToe {
 	}
 
 	public boolean isValidIndex(int i) {
-		return i >= 0 && i < 9 && arr[i] > '0' && arr[i] <= '9';
+		return i >= 0 && i < 9 && arr[i] >= '0' && arr[i] <= '9';
 	}
 
 	public char checkWinner() {
