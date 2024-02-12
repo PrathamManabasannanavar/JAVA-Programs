@@ -20,7 +20,7 @@ class TicTacToe {
 	}
 	public boolean isFull() {
 		for (int i = 0;  i < 9; i++)
-			if (arr[i] >= '0' && arr[i] <= '9')
+			if (arr[i] >= '1' && arr[i] <= '9')
 				return false;
 		return true;
 	}
