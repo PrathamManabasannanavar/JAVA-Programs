@@ -55,6 +55,7 @@ class sample {
 	public static void main(String args[]) {
 		int player = 1, choice;
 		TicTacToe game = new TicTacToe();
+  System.out.println("WELCOME TO TIC TAC TOE");
 		game.displayBoard();
 		while (true) {
 			if (game.isFull()) {
