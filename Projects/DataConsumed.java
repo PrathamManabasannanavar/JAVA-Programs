@@ -55,16 +55,16 @@ class Main {
 	public static void main(String[] args) {
 		DateDifferenceCalculator date = new DateDifferenceCalculator();
 		long daysDiff = date.main(args) + 1;
-	   DataConsumed data = new DataConsumed();
-	   data.maxConsumption(daysDiff);
-     System.out.printf("Remaining days of plan: %d days%n", 365 - daysDiff+1);
-     System.out.println("Enter the remaining data");
-     Scanner sc = new Scanner(System.in);
-     float consumedData = 600 - sc.nextFloat(); //600 is the total data available for 1 year in a specific plan
-     float leftOutData = data.getData() - consumedData;
-     if(leftOutData > 0)
-          System.out.println("You can use : " + leftOutData + "GB");
-       else
-          System.out.println("\nNo data left");
+	        DataConsumed data = new DataConsumed();
+	        data.maxConsumption(daysDiff);
+                System.out.printf("Remaining days of plan: %d days%n", 365 - daysDiff+1);
+                System.out.println("Enter the remaining data");
+                Scanner sc = new Scanner(System.in);
+                float consumedData = 600 - sc.nextFloat(); //600 is the total data available for 1 year in a specific plan
+                float leftOutData = data.getData() - consumedData;
+                if(leftOutData > 0)
+                     System.out.println("You can use : " + leftOutData + "GB");
+                else
+                     System.out.println("\nNo data left");
 	}
 }
