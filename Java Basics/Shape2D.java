@@ -20,7 +20,7 @@ class Area {
 }
 
 public class Shape2D {
-	public static void main(String[]args) {
+	public static void main(String[] args) {
 
 		Area a1 = new Area();
 		System.out.println("Enter length and breadth ");
