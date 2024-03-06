@@ -7,16 +7,14 @@ class A {
 	
 }
 
-public class AnonymousClasses{
+public class AnonymousClasses {
 	public static void main(String[] args) {
 		A b1 = new A() {
-			//Function overiding
-			public void printA() {
-				System.out.println("in B");
-			}
-			
-		};
+	        //Function overiding
+		public void printA() {
+			System.out.println("in B");
+		        }			
+	        };
 		b1.printA();		
-		
 	}
 }
