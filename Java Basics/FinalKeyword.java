@@ -14,7 +14,7 @@ class A {
 }
 
 class B extends A{
-	public void hello() {} //throws error}
+	//public void hello() {} //throws error}
 }
 
 public class FinalKeyword {
