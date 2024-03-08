@@ -40,7 +40,7 @@ class GCD {
 	
 }
 
-public class Main {
+public class GcdAlgo {
 	public static void main(String[] args) {
 		int a, b;
 		System.out.println("Enter 2 numbers: ");
