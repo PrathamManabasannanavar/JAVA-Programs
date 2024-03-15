@@ -1,7 +1,7 @@
 //A simple Java program to demonstrate the Immutable Strings in Java
 import java.util.*;
 
-public class Main {
+public class StringMethods {
     public static void main(String[] args) {
       System.out.println("Hello, World!");
       String str1 = "  hi255662k";
