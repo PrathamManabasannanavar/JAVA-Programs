@@ -6,7 +6,7 @@ class Sort{
 		while(i <= mid && j <= end)
 		{
 			if(arr[i] < arr[j])
-				result[k++] = arr[i++];
+		            result[k++] = arr[i++];
 			else
 			    result[k++] = arr[j++];	
 		}
