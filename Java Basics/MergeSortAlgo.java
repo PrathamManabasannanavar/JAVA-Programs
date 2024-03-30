@@ -13,7 +13,7 @@ class Sort{
 		while(i <= mid)
 		    result[k++] = arr[i++];
 		while(j <= end)
-			result [k++] = arr[j++];
+		    result[k++] = arr[j++];
 		for(int itr=0; itr<end-start+1; itr++)
 		   arr[itr+start] = result[itr];
 	}
