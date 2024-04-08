@@ -1,7 +1,7 @@
 //A simple Java program to demonstrate the Custom Exceptions in Java
 import java.util.*;
 
-public class Main {
+public class CustomExceptions1 {
     public static void main(String[] args) {
       int n = 1000;
       try{
