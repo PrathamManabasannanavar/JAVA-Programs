@@ -1,4 +1,9 @@
 //A simple Java program ro demonstrate the Exceptions
+/* 
+  printStackTrace() -> Prints name, description, Stack trace.
+  toString() -> Prints the name + description of the Exception.
+  getMessage() -> Prints the Description of the Exception.
+*/
 import java.util.*;
 
 public class Exception1 {
