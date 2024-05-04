@@ -1,4 +1,4 @@
-//A simple Java program to multiplication of 2 matrices usong Threads
+//A simple Java program to perform multiplication of 2 matrices usong Threads
 import java.util.*;
 
 class Multiply extends Thread{
