@@ -1,7 +1,7 @@
 //A simple Java program to Demonstrate class implements Runnable interface
 import java.util.*;
 
-public class Main {
+public class ThreadsRunnable{
     public static void main(String[] args) {
       MyClass r1 = new MyClass();
       Thread t1 = new Thread(r1);
