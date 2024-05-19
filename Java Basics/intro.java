@@ -1,4 +1,3 @@
-import java.util.*
 
 class Bye
 {
@@ -15,7 +14,7 @@ class Bye
     }
 }
 
-class HelloWorld {
+class intro {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
         Bye hello = new Bye(20); //creating a object

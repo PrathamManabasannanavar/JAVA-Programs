@@ -25,3 +25,4 @@ public class InnerClassDemo1 {
 	   //if class InnerA was static then
 	   //A.InnerA ia = A.InnerA.printInnerA();
 	}
+}

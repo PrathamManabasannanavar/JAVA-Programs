@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class Collections0 {
     public static void main(String[] args) {
       List<Integer> c1 = new ArrayList<>();
       System.out.println(c1);

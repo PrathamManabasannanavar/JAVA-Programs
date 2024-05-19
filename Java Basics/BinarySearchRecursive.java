@@ -1,6 +1,4 @@
 //A simple Java program to perform Binary Search using Recursion
-import java.util.*;
-
 class BinarySearchRecursive{
   public static void main (String[] args) {
     int arr[] = {2,3,5,6,7,8};

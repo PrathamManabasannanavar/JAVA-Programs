@@ -1,6 +1,4 @@
 //A simple Java program to demonstrate the User defined Exceptions
-import java.util.*;
-
 class MyException  extends Exception{
   MyException() {
     super("hi in MyException");

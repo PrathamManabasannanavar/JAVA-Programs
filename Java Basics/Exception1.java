@@ -4,7 +4,6 @@
   toString() -> Prints the name + description of the Exception.
   getMessage() -> Prints the Description of the Exception.
 */
-import java.util.*;
 
 public class Exception1 {
     public static void main(String[] args) {

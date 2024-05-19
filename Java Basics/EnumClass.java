@@ -1,6 +1,4 @@
 //Java pgm to demonstrate enum classes
-import java.util.*;
-
 
 enum hello{
   a(20, 59), b(30), c(40);
