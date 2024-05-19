@@ -3,7 +3,7 @@
 import java.util.Scanner;
 import java.util.Date;
 
-public class DateDifferenceCalculator {
+class DateDifferenceCalculator {
     
     public static long modOfDiff(long days)
     {

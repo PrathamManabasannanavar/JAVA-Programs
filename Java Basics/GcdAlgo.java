@@ -47,6 +47,7 @@ public class GcdAlgo {
 		Scanner sc = new Scanner(System.in);
 		a = sc.nextInt();
 		b = sc.nextInt();
+		sc.close();
 		System.out.println("GCD by algo1 " + GCD.gcd1(a, b));
 		System.out.println("GCD by algo2 " + GCD.gcd2(a, b));
 		System.out.println("GCD by algo3 " + GCD.gcd3(a, b));

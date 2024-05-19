@@ -30,7 +30,7 @@ class Student
   }
 }
 
-public class Main
+public class staticVariable
 {
   public static void main (String[]args)
   {

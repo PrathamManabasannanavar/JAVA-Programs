@@ -1,7 +1,7 @@
 //A simple Java program to print tge tables in a synchronised way
 import java.util.Scanner;
 
-public class Main {
+public class ThreadsDemo1 {
     public static void main(String[] args) {
       Thread t1 = new TableDisplay(4);
       Thread t2 = new TableDisplay(5);

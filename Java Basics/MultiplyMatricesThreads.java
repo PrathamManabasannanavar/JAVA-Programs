@@ -32,7 +32,7 @@ class Multiply extends Thread{
 72 87 102 
 124 151 178
 */
-public class MultiplyMatricesThread{
+class MultiplyMatricesThread{
     public static void main(String[] args) {
       int arr1[][] = {{1, 2, 3}, {4, 5, 6}, {8, 9, 10}};
       int arr2[][] = {{1, 2, 3}, {4, 5, 6}, {8, 9, 10}};

@@ -26,7 +26,7 @@ class College extends Student
 	
 }
 
-public class Main {
+public class superAndInheritance {
 	public static void main(String[] args) {
 		College c = new College();
 		c.name = "Rohit";
