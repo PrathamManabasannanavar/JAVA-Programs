@@ -1,5 +1,4 @@
 //A simple Java program to search substring/Pattern in a string 
-import java.util.Scanner;
 
 class StringMethods {
 	public static int isSubstring(String str, String pattern) {

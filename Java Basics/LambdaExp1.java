@@ -1,5 +1,4 @@
 //Java program to demonstrate the Lambda expression
-import java.util.*;
 
 interface A {
   public void hello(int value);
