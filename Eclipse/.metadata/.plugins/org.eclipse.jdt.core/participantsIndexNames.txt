@@ -1,7 +1,0 @@
-INDEX VERSION 1.134
-D:\Java Eclipse\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3424197016.index
-\GradeSystem\src\main\java
-D:\Java Eclipse\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1370839318.index
-\new1\src\main\java
-D:\Java Eclipse\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\402550306.index
-\SimpleCalculator\src\main\java
