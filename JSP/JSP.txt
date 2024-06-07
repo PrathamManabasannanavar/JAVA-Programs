@@ -1,0 +1,2 @@
+JSP --> embedding the java code in the HTML
+Servlet --> embedding the HTML code in the JAVA

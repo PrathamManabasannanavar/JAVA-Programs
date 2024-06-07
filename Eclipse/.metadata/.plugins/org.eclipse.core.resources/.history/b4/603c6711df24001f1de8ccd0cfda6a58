@@ -1,0 +1,25 @@
+import java.sql.*;
+
+public class test1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			
+			Class.forName("com.mysql.jdbc.Driver");
+			
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/employee", "root", null);
+			Statement st = con.createStatement();
+			
+			System.out.print("hi");
+			st.executeUpdate("insert into employeedetails values('Pavan', 45, 3.4)");
+			ResultSet rs = st.executeQuery("select * from employeeDetails");			
+			while(rs.next()) {
+				System.out.println(rs.getInt(1)+ " " +  rs.getString(2) + " " + rs.getFloat(3));
+			}
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+}
